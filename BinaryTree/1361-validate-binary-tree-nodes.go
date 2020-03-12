@@ -4,7 +4,7 @@ func validateBinaryTreeNodes(n int, leftChild []int, rightChild []int) bool {
 	if n == 1 {
 		return true
 	}
-	//遍历判断计算所有节点的入度
+	//遍历计算所有节点的入度
 	show_time := make([]int, n)
 	for i := 0; i < n; i++ {
 
